@@ -4,6 +4,19 @@
    themes: light --default;
  }
 
+ body {
+  --text-shadow-sm: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  text-shadow: var(--text-shadow-sm);
+}
+
+button, input, select, textarea {
+  text-shadow: var(--text-shadow-sm);
+}
+
+* {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1) !important;
+}
+
  @plugin "daisyui/theme" {
   name: "light";
   default: true;

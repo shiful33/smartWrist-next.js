@@ -1,302 +1,306 @@
 [
   {
     "title": "Apple Watch Ultra 2",
-    "bangla": "অ্যাপল ওয়াচ আল্ট্রা ২ - প্রিমিয়াম স্পোর্টস স্মার্টওয়াচ",
     "image": "https://i.ibb.co.com/HTWWyCJ1/wtch1.webp",
     "price": 85000,
     "discount": 5,
-    "sizes": ["49mm"],
-    "color": ["Titanium", "Black", "Blue"],
-    "description": "Apple Watch Ultra 2 হলো বর্তমান সময়ের সবথেকে শক্তিশালী স্মার্টওয়াচ। এটি মূলত অ্যাথলেট এবং অ্যাডভেঞ্চার প্রিয় মানুষদের জন্য তৈরি। এর ৩০০০ নিটস ব্রাইটনেস ডিসপ্লে কড়া রোদেও পরিষ্কার দেখা যায়। এতে রয়েছে অত্যন্ত নির্ভুল ডুয়াল ফ্রিকোয়েন্সি জিপিএস, যা পাহাড় বা জঙ্গলে পথ হারানো থেকে বাঁচাবে। টাইটানিয়াম বডি হওয়ার কারণে এটি যেমন হালকা তেমনি মজবুত। এর উন্নত সেন্সর হার্ট রেট এবং ব্লাড অক্সিজেন লেভেল সবসময় মনিটর করে।",
+    "sizes": "49mm",
+    "color": "Titanium, Black, Blue",
+    "description": "Apple Watch Ultra 2 is the most powerful smartwatch currently available. It is primarily built for athletes and adventure enthusiasts. Its 3000 nits brightness display remains clearly visible even under direct sunlight. It features highly accurate dual-frequency GPS to prevent getting lost in mountains or forests. The titanium body makes it both lightweight and durable. Its advanced sensors monitor heart rate and blood oxygen levels constantly.",
     "qna": [
       {
-        "question": "এর ব্যাটারি ব্যাকআপ কতদিন?",
-        "answer": "নরমাল মোডে ৩৬ ঘণ্টা এবং লো পাওয়ার মোডে ৭২ ঘণ্টা পর্যন্ত ব্যাকআপ পাওয়া যায়।"
+        "question": "What is the battery backup?",
+        "answer": "It provides up to 36 hours in normal mode and up to 72 hours in low power mode."
       }
     ],
     "reviews": 120,
     "sold": 450,
     "ratings": 4.9,
-    "info": ["৩০০০ নিটস ব্রাইটনেস", "অ্যাডভান্সড জিপিএস ট্র্যাকিং", "টাইটানিয়াম মজবুত বডি", "ওয়াটার রেজিস্ট্যান্ট ১০০ মিটার"]
+    "info": ["3000 nits brightness", "Advanced GPS tracking", "Durable titanium body", "100m water resistant"]
   },
   {
     "title": "Samsung Galaxy Watch 7 Ultra",
-    "bangla": "স্যামসাং গ্যালাক্সি ওয়াচ ৭ আল্ট্রা",
     "image": "https://i.ibb.co.com/9HchCJP8/wtch2.webp",
     "price": 62000,
     "discount": 8,
-    "sizes": ["47mm"],
-    "color": ["Titanium Silver", "Titanium Gray"],
-    "description": "অ্যান্ড্রয়েড ইউজারদের জন্য সবথেকে শক্তিশালী অপশন হলো এই ওয়াচটি। এতে স্যামসাংয়ের লেটেস্ট AI চিপসেট ব্যবহার করা হয়েছে যা আপনার হেলথ ডেটা আরও নির্ভুলভাবে এনালাইসিস করতে পারে। এর কুশন ডিজাইন এবং স্যাফায়ার ক্রিস্টাল গ্লাস একে প্রিমিয়াম লুক দেয়। যারা নিয়মিত জিম বা আউটডোর অ্যাক্টিভিটি করেন তাদের জন্য এটি সেরা পছন্দ।",
+    "sizes": "47mm",
+    "color": "Titanium Silver, Titanium Gray",
+    "description": "This is the most powerful option for Android users. It features Samsung's latest AI chipset for more accurate health data analysis. Its cushion design and sapphire crystal glass provide a premium look. It is the best choice for those who regular gym or outdoor activities.",
     "qna": [
       {
-        "question": "এটি কি সব অ্যান্ড্রয়েড ফোনে কাজ করবে?",
-        "answer": "হ্যাঁ, তবে স্যামসাং ফোনের সাথে এটি সবথেকে ভালো ফিচারগুলো প্রদান করে।"
+        "question": "Does it work with all Android phones?",
+        "answer": "Yes, but it provides the best features when paired with Samsung phones."
       }
     ],
     "reviews": 85,
     "sold": 310,
     "ratings": 4.8,
-    "info": ["Galaxy AI হেলথ ট্র্যাকিং", "ডুয়াল ফ্রিকোয়েন্সি জিপিএস", "১০ এটিএম ওয়াটার রেজিস্ট্যান্স", "অ্যামোলেড ডিসপ্লে"]
+    "info": ["Galaxy AI health tracking", "Dual-frequency GPS", "10 ATM water resistance", "AMOLED display"]
   },
   {
     "title": "Huawei Watch GT 4",
-    "bangla": "হুয়াওয়ে ওয়াচ জিটি ৪ - স্টাইলিশ ডিজাইন",
     "image": "https://i.ibb.co.com/Dq7ywcy/wtch3.png",
     "price": 24500,
     "discount": 10,
-    "sizes": ["46mm", "41mm"],
-    "color": ["Black", "Brown Leather", "Green"],
-    "description": "হুয়াওয়ে ওয়াচ জিটি ৪ এর প্রধান আকর্ষণ হলো এর ব্যাটারি লাইফ এবং ক্ল্যাসিক ওয়াচ ডিজাইন। এটি একবার চার্জ দিলে টানা ১৪ দিন পর্যন্ত চলতে পারে। এর অক্টাগন শেপ ডিজাইন একে অন্য সব স্মার্টওয়াচ থেকে আলাদা করে তোলে। এতে ১০০টিরও বেশি স্পোর্টস মোড রয়েছে।",
+    "sizes": "46mm, 41mm",
+    "color": "Black, Brown Leather, Green",
+    "description": "The main attraction of the Huawei Watch GT 4 is its battery life and classic watch design. It can last up to 14 days on a single charge. The octagon shape design sets it apart from other smartwatches. It includes over 100 sports modes.",
     "qna": [
       {
-        "question": "এর ব্যাটারি কতদিন থাকে?",
-        "answer": "স্বাভাবিক ব্যবহারে ১৪ দিন এবং হেভি ব্যবহারে ৭-৮ দিন থাকে।"
+        "question": "How long does the battery last?",
+        "answer": "It lasts 14 days with typical use and 7-8 days with heavy use."
       }
     ],
     "reviews": 210,
     "sold": 540,
     "ratings": 4.7,
-    "info": ["১৪ দিন ব্যাটারি লাইফ", "১০০+ স্পোর্টস মোড", "প্রিমিয়াম ক্ল্যাসিক ডিজাইন", "স্লিপ ব্রিদিং অ্যাওয়ারনেস"]
+    "info": ["14-day battery life", "100+ sports modes", "Premium classic design", "Sleep breathing awareness"]
   },
   {
     "title": "Garmin Fenix 7 Pro",
-    "bangla": "গারমিন ফেনিক্স ৭ প্রো - সোলার চার্জিং",
     "image": "https://i.ibb.co.com/Cs56nWS0/wtch4.jpg",
     "price": 95000,
     "discount": 0,
-    "sizes": ["47mm"],
-    "color": ["Slate Gray", "Black"],
-    "description": "গারমিন ফেনিক্স ৭ প্রো বিশেষ করে প্রফেশনাল রানার এবং হাইকারদের জন্য। এতে সোলার চার্জিং সুবিধা রয়েছে, যা সূর্যের আলো থেকে চার্জ হতে পারে। এতে একটি বিল্ট-ইন ফ্ল্যাশলাইট আছে যা রাতে অনেক কাজে লাগে। এর ম্যাপ নেভিগেশন সিস্টেম বিশ্বের সেরা।",
+    "sizes": "47mm",
+    "color": "Slate Gray, Black",
+    "description": "The Garmin Fenix 7 Pro is specifically for professional runners and hikers. It features solar charging, allowing it to charge from sunlight. It has a built-in flashlight which is very useful at night. Its map navigation system is among the best in the world.",
     "qna": [
       {
-        "question": "সোলার চার্জিং কিভাবে কাজ করে?",
-        "answer": "ঘড়ির গ্লাসে সোলার প্যানেল দেওয়া আছে যা সরাসরি সূর্যের আলো থেকে ব্যাটারি ব্যাকআপ বাড়িয়ে দেয়।"
+        "question": "How does solar charging work?",
+        "answer": "The watch glass contains solar panels that directly increase battery backup from sunlight."
       }
     ],
     "reviews": 45,
     "sold": 120,
     "ratings": 4.9,
-    "info": ["সোলার চার্জিং সুবিধা", "বিল্ট-ইন এলইডি ফ্ল্যাশলাইট", "টপো ম্যাপ সাপোর্ট", "মিলিটারি গ্রেড স্থায়িত্ব"]
+    "info": ["Solar charging facility", "Built-in LED flashlight", "Topo map support", "Military-grade durability"]
   },
   {
     "title": "Amazfit GTR 4",
-    "bangla": "অ্যামাজফিট জিটিআর ৪ - বাজেট প্রিমিয়াম",
     "image": "https://i.ibb.co.com/HD76WVhs/wtch5.png",
     "price": 18500,
     "discount": 15,
-    "sizes": ["46mm"],
-    "color": ["Superspeed Black", "Vintage Brown"],
-    "description": "অ্যামাজফিট জিটিআর ৪ একটি ব্যালেন্সড স্মার্টওয়াচ। যারা কম দামে প্রিমিয়াম লুক এবং ভালো জিপিএস চান তাদের জন্য এটি সেরা। এতে ব্লুটুথ কলিং সুবিধা এবং মিউজিক স্টোরেজ রয়েছে।",
+    "sizes": "46mm",
+    "color": "Superspeed Black, Vintage Brown",
+    "description": "The Amazfit GTR 4 is a balanced smartwatch. It is best for those looking for a premium look and good GPS at a lower price. It features Bluetooth calling and music storage.",
     "qna": [
       {
-        "question": "এটি দিয়ে কি ফোনে কথা বলা যায়?",
-        "answer": "হ্যাঁ, এতে স্পিকার এবং মাইক্রোফোন আছে তাই সরাসরি কথা বলা সম্ভব।"
+        "question": "Can I make calls with this?",
+        "answer": "Yes, it has a speaker and microphone, allowing for direct calling."
       }
     ],
     "reviews": 320,
     "sold": 1100,
     "ratings": 4.6,
-    "info": ["ব্লুটুথ কলিং", "ডুয়াল ব্যান্ড জিপিএস", "১৫০+ স্পোর্টস মোড", "স্মার্ট হেলথ মনিটরিং"]
+    "info": ["Bluetooth calling", "Dual-band GPS", "150+ sports modes", "Smart health monitoring"]
   },
   {
     "title": "Apple Watch Series 10",
-    "bangla": "অ্যাপল ওয়াচ সিরিজ ১০ - স্লিম ও পাওয়ারফুল",
     "image": "https://i.ibb.co.com/XZWXs5BH/wtch6.webp",
     "price": 48000,
     "discount": 5,
-    "sizes": ["42mm", "46mm"],
-    "color": ["Jet Black", "Rose Gold", "Silver"],
-    "description": "সবথেকে স্লিম ডিজাইনের অ্যাপল ওয়াচ হলো সিরিজ ১০। এর ডিসপ্লে আগের থেকে অনেক বড় এবং ওয়াইড অ্যাঙ্গেল ওএলইডি প্যানেল ব্যবহার করা হয়েছে। এটি দিয়ে স্লিপ অ্যাপনিয়া বা ঘুমের সমস্যা শনাক্ত করা সম্ভব।",
+    "sizes": "42mm, 46mm",
+    "color": "Jet Black, Rose Gold, Silver",
+    "description": "The Series 10 is the slimmest Apple Watch yet. It features a larger display with a wide-angle OLED panel. It can detect sleep apnea and other sleep-related issues.",
     "qna": [
       {
-        "question": "এটি কত দ্রুত চার্জ হয়?",
-        "answer": "মাত্র ৩০ মিনিটে এটি ৮০% চার্জ হতে পারে।"
+        "question": "How fast does it charge?",
+        "answer": "It can charge up to 80% in just 30 minutes."
       }
     ],
     "reviews": 65,
     "sold": 280,
     "ratings": 4.8,
-    "info": ["স্লিপ অ্যাপনিয়া ডিটেকশন", "ফাস্ট চার্জিং", "ওয়াইড অ্যাঙ্গেল ওএলইডি", "ওয়াটার রেজিস্ট্যান্ট"]
+    "info": ["Sleep apnea detection", "Fast charging", "Wide-angle OLED", "Water resistant"]
   },
   {
     "title": "Google Pixel Watch 3",
-    "bangla": "গুগল পিক্সেল ওয়াচ ৩ - পিওর অ্যান্ড্রয়েড অভিজ্ঞতা",
     "image": "https://i.ibb.co.com/CKHw5fb2/wtch7.jpg",
     "price": 38000,
     "discount": 7,
-    "sizes": ["41mm", "45mm"],
-    "color": ["Matte Black", "Polished Silver"],
-    "description": "গুগলের নিজস্ব ইকোসিস্টেমের জন্য পিক্সেল ওয়াচ ৩ সেরা। এতে ফিটবিট (Fitbit) এর প্রিমিয়াম হেলথ ট্র্যাকিং ইন্টিগ্রেটেড আছে। এর গোল আকৃতির ডোম ডিজাইনটি অত্যন্ত আধুনিক।",
+    "sizes": "41mm, 45mm",
+    "color": "Matte Black, Polished Silver",
+    "description": "The Pixel Watch 3 is the best for Google's own ecosystem. It integrates Fitbit's premium health tracking. Its circular dome design is very modern.",
     "qna": [
       {
-        "question": "এতে কি জিপিএস আছে?",
-        "answer": "হ্যাঁ, এতে অত্যন্ত নির্ভুল জিপিএস সিস্টেম দেওয়া হয়েছে।"
+        "question": "Does it have GPS?",
+        "answer": "Yes, it features a highly accurate GPS system."
       }
     ],
     "reviews": 42,
     "sold": 150,
     "ratings": 4.5,
-    "info": ["Fitbit হেলথ ট্র্যাকিং", "অ্যালওয়েজ-অন ডিসপ্লে", "গুগল অ্যাসিস্ট্যান্ট সাপোর্ট", "একুরেট হার্টরেট সেন্সর"]
+    "info": ["Fitbit health tracking", "Always-on display", "Google Assistant support", "Accurate heart rate sensor"]
   },
   {
     "title": "Xiaomi Watch S3",
-    "bangla": "শাওমি ওয়াচ এস৩ - পরিবর্তনযোগ্য বেজেল",
     "image": "https://i.ibb.co.com/XrXB34LT/wtch8.jpg",
     "price": 14500,
     "discount": 12,
-    "sizes": ["47mm"],
-    "color": ["Black", "Silver"],
-    "description": "শাওমি ওয়াচ এস৩ এর সবথেকে বড় বৈশিষ্ট্য হলো এর বেজেল পরিবর্তন করা যায়। আপনি আপনার পোশাকের সাথে মিলিয়ে ঘড়ির লুক বদলে ফেলতে পারেন। এটি শাওমির নতুন HyperOS এ চলে।",
+    "sizes": "47mm",
+    "color": "Black, Silver",
+    "description": "The biggest feature of the Xiaomi Watch S3 is its interchangeable bezel. You can change the watch's look to match your outfit. It runs on Xiaomi's new HyperOS.",
     "qna": [
       {
-        "question": "বেজেল কি আলাদা কিনতে হয়?",
-        "answer": "হ্যাঁ, বক্সের সাথে একটি থাকে, বাকিগুলো আলাদা কেনা যায়।"
+        "question": "Do I need to buy bezels separately?",
+        "answer": "Yes, one is included in the box, others can be purchased separately."
       }
     ],
     "reviews": 150,
     "sold": 890,
     "ratings": 4.6,
-    "info": ["ইন্টারচেঞ্জবল বেজেল", "HyperOS সাপোর্ট", "১৫ দিন ব্যাটারি লাইফ", "অ্যামোলেড স্ক্রিন"]
+    "info": ["Interchangeable bezel", "HyperOS support", "15-day battery life", "AMOLED screen"]
   },
   {
     "title": "OnePlus Watch 2",
-    "bangla": "ওয়ানপ্লাস ওয়াচ ২ - ডুয়াল ইঞ্জিন আর্কিটেকচার",
     "image": "https://i.ibb.co.com/nMTCpb3B/wtch9.webp",
     "price": 29000,
     "discount": 5,
-    "sizes": ["46mm"],
-    "color": ["Black Steel", "Radiant Steel"],
-    "description": "ওয়ানপ্লাস ওয়াচ ২-তে দুটি প্রসেসর ব্যবহার করা হয়েছে। একটি ব্যাটারি বাঁচায় এবং অন্যটি হাই-পারফরম্যান্স নিশ্চিত করে। এর ফলে এটি WearOS হওয়া সত্ত্বেও ১০০ ঘণ্টা পর্যন্ত ব্যাটারি ব্যাকআপ দেয়।",
+    "sizes": "46mm",
+    "color": "Black Steel, Radiant Steel",
+    "description": "The OnePlus Watch 2 uses two processors: one to save battery and another to ensure high performance. As a result, it provides up to 100 hours of battery life despite running WearOS.",
     "qna": [
       {
-        "question": "এতে কি গুগল প্লে-স্টোর আছে?",
-        "answer": "হ্যাঁ, এটি WearOS এ চলায় প্লে-স্টোর থেকে সব অ্যাপ নামানো যায়।"
+        "question": "Does it have Google Play Store?",
+        "answer": "Yes, since it runs on WearOS, you can download all apps from the Play Store."
       }
     ],
     "reviews": 95,
     "sold": 420,
     "ratings": 4.7,
-    "info": ["১০০ ঘণ্টা ব্যাটারি মোড", "WearOS 4", "স্যাফায়ার ক্রিস্টাল গ্লাস", "স্টেইনলেস স্টিল বডি"]
+    "info": ["100-hour battery mode", "WearOS 4", "Sapphire crystal glass", "Stainless steel body"]
   },
   {
     "title": "Noise ColorFit Pro 5",
-    "bangla": "নয়েজ কালারফিট প্রো ৫ - বাজেট অপশন",
     "image": "https://i.ibb.co.com/pB2NM9kn/wtch10.webp",
     "price": 5500,
     "discount": 20,
-    "sizes": ["1.85 inch"],
-    "color": ["Midnight Blue", "Classic Black"],
-    "description": "যারা অল্প বাজেটের মধ্যে ভালো ব্লুটুথ কলিং ঘড়ি খুঁজছেন তাদের জন্য নয়েজ কালারফিট প্রো ৫ চমৎকার। এর বড় ডিসপ্লে এবং স্মুথ অ্যানিমেশন ইউজার এক্সপেরিয়েন্স বাড়িয়ে দেয়।",
+    "sizes": "1.85 inch",
+    "color": "Midnight Blue, Classic Black",
+    "description": "Noise ColorFit Pro 5 is excellent for those looking for a good Bluetooth calling watch on a small budget. Its large display and smooth animations enhance the user experience.",
     "qna": [
       {
-        "question": "এটি কি ওয়াটারপ্রুফ?",
-        "answer": "এটি IP68 রেটিং প্রাপ্ত, তাই ঘাম বা হালকা বৃষ্টিতে সমস্যা নেই।"
+        "question": "Is it waterproof?",
+        "answer": "It is IP68 rated, so it is safe from sweat or light rain."
       }
     ],
     "reviews": 560,
     "sold": 2300,
     "ratings": 4.4,
-    "info": ["বড় অ্যামোলেড ডিসপ্লে", "ব্লুটুথ কলিং", "মেটাল বডি", "বাজেট ফ্রেন্ডলি"]
+    "info": ["Large AMOLED display", "Bluetooth calling", "Metal body", "Budget friendly"]
   },
   {
     "title": "Fitbit Sense 2",
-    "bangla": "ফিটবিট সেন্স ২ - স্ট্রেস ম্যানেজমেন্ট",
     "image": "https://i.ibb.co.com/Kx5nBfrC/wtch11.jpg",
     "price": 26000,
     "discount": 10,
-    "sizes": ["40mm"],
-    "color": ["Shadow Grey", "Lunar White"],
-    "description": "ফিটবিট সেন্স ২ মূলত স্বাস্থ্য সচেতন মানুষের জন্য। এতে cEDA সেন্সর আছে যা আপনার স্ট্রেস বা মানসিক চাপ পরিমাপ করতে পারে। এটি আপনাকে ভালো ঘুম এবং ফিট থাকতে গাইড করবে।",
+    "sizes": "40mm",
+    "color": "Shadow Grey, Lunar White",
+    "description": "Fitbit Sense 2 is primarily for health-conscious people. It features a cEDA sensor that can measure your stress levels. It guides you to better sleep and staying fit.",
     "qna": [
       {
-        "question": "এটি কি হার্ট রেট মাপা যায়?",
-        "answer": "হ্যাঁ, এতে ইসিজি (ECG) এবং হার্ট রেট মাপার উন্নত সেন্সর আছে।"
+        "question": "Can it measure heart rate?",
+        "answer": "Yes, it has advanced sensors for ECG and heart rate measurement."
       }
     ],
     "reviews": 78,
     "sold": 340,
     "ratings": 4.6,
-    "info": ["স্ট্রেস ট্র্যাকিং সেন্সর", "ECG অ্যাপ", "স্লিপ স্কোর সুবিধা", "৬ দিন ব্যাটারি লাইফ"]
+    "info": ["Stress tracking sensor", "ECG app", "Sleep score facility", "6-day battery life"]
   },
   {
     "title": "Casio G-Shock GBD-200",
-    "bangla": "কাসিও জি-শক জিবিডি-২০০ - শকপ্রুফ স্মার্ট",
     "image": "https://i.ibb.co.com/G3GxV4Lz/wtch12.jpg",
     "price": 16500,
     "discount": 5,
-    "sizes": ["Square"],
-    "color": ["Lime Green", "Black"],
-    "description": "জি-শক লাভারদের জন্য এটি একটি সেমি-স্মার্ট ওয়াচ। এটি অত্যন্ত মজবুত এবং পানিতে পরলে কোনো সমস্যা হয় না। এতে স্টেপ কাউন্টার এবং ফোনের নোটিফিকেশন সুবিধা রয়েছে।",
+    "sizes": "Square",
+    "color": "Lime Green, Black",
+    "description": "This is a semi-smart watch for G-Shock lovers. It is extremely durable and waterproof. It features a step counter and phone notification support.",
     "qna": [
       {
-        "question": "এর ব্যাটারি কি চার্জ দিতে হয়?",
-        "answer": "না, এটি কয়েন ব্যাটারিতে চলে যা প্রায় ২ বছর পর্যন্ত সার্ভিস দেয়।"
+        "question": "Does the battery need charging?",
+        "answer": "No, it runs on a coin battery that lasts approximately 2 years."
       }
     ],
     "reviews": 115,
     "sold": 600,
     "ratings": 4.7,
-    "info": ["শকপ্রুফ বডি", "২০০ মিটার ওয়াটার রেজিস্ট্যান্স", "স্টেপ ট্র্যাকার", "ব্লুটুথ কানেক্টিভিটি"]
+    "info": ["Shockproof body", "200m water resistance", "Step tracker", "Bluetooth connectivity"]
   },
   {
     "title": "Mobvoi TicWatch Pro 5",
-    "bangla": "টিকওয়াচ প্রো ৫ - ডুয়াল ডিসপ্লে প্রযুক্তি",
     "image": "https://i.ibb.co.com/qtYjq7Q/wtch13.jpg",
     "price": 34000,
     "discount": 8,
-    "sizes": ["50mm"],
-    "color": ["Obsidian"],
-    "description": "টিকওয়াচ প্রো ৫ এর প্রধান ম্যাজিক হলো এর দুটি স্ক্রিন। একটি মেইন ওএলইডি ডিসপ্লে এবং তার উপরে একটি আল্ট্রা-লো-পাওয়ার ডিসপ্লে যা ব্যাটারি সাশ্রয় করে। এটি সবথেকে লেটেস্ট স্ন্যাপড্রাগন চিপসেটে চলে।",
+    "sizes": "50mm",
+    "color": "Obsidian",
+    "description": "The main magic of TicWatch Pro 5 is its dual screens. It has a main OLED display and an ultra-low-power display on top to save battery. It runs on the latest Snapdragon chipset.",
     "qna": [
       {
-        "question": "ডুয়াল ডিসপ্লের সুবিধা কী?",
-        "answer": "যখন ঘড়িটি বেশি ব্যবহার করবেন না, তখন উপরের স্ক্রিনটি সময় দেখাবে এবং ব্যাটারি বাঁচাবে।"
+        "question": "What is the advantage of the dual display?",
+        "answer": "When the watch is not in heavy use, the top screen shows the time and saves battery life."
       }
     ],
     "reviews": 34,
     "sold": 110,
     "ratings": 4.5,
-    "info": ["ডুয়াল লেয়ার ডিসপ্লে", "Snapdragon W5+ Gen 1", "ফাস্ট চার্জিং", "মিলিটারি স্ট্যান্ডার্ড ৮১০এইচ"]
+    "info": ["Dual-layer display", "Snapdragon W5+ Gen 1", "Fast charging", "Military Standard 810H"]
   },
   {
     "title": "Fossil Gen 6 Hybrid",
-    "bangla": "ফসিল জেন ৬ হাইব্রিড - স্মার্ট ও ক্ল্যাসিক",
     "image": "https://i.ibb.co.com/z19b7Wp/wtch14.jpg",
     "price": 22000,
     "discount": 10,
-    "sizes": ["44mm"],
-    "color": ["Machine Black", "Silver Steel"],
-    "description": "যারা সত্যিকারের ঘড়ির কাঁটা এবং স্মার্ট ফিচার দুটোই চান, তাদের জন্য ফসিল হাইব্রিড পারফেক্ট। এতে ই-ইঙ্ক (E-ink) ডিসপ্লে ব্যবহার করা হয়েছে যা ২ সপ্তাহ ব্যাটারি ব্যাকআপ দেয়।",
+    "sizes": "44mm",
+    "color": "Machine Black, Silver Steel",
+    "description": "For those who want real watch hands and smart features, the Fossil Hybrid is perfect. It uses an E-ink display that provides 2 weeks of battery backup.",
     "qna": [
       {
-        "question": "এতে কি টাচ স্ক্রিন আছে?",
-        "answer": "না, এটি সাইড বাটন দিয়ে কন্ট্রোল করতে হয়, তবে স্ক্রিনে নোটিফিকেশন দেখা যায়।"
+        "question": "Is it a touch screen?",
+        "answer": "No, it is controlled via side buttons, though notifications are visible on the screen."
       }
     ],
     "reviews": 56,
     "sold": 190,
     "ratings": 4.4,
-    "info": ["ফিজিক্যাল ওয়াচ হ্যান্ডস", "২ সপ্তাহ ব্যাটারি", "হার্ট রেট ও SpO2", "ই-ইঙ্ক ডিসপ্লে"]
+    "info": ["Physical watch hands", "2-week battery", "Heart rate & SpO2", "E-ink display"]
   },
   {
     "title": "Suunto 9 Peak Pro",
-    "bangla": "সুন্টো ৯ পিক প্রো - আল্ট্রা থিন স্পোর্টস",
     "image": "https://i.ibb.co.com/fzpLFb6k/wtch15.jpg",
     "price": 58000,
     "discount": 5,
-    "sizes": ["43mm"],
-    "color": ["All Black", "Ocean Blue"],
-    "description": "সুন্টো একটি ফিনিশ ব্র্যান্ড যা অত্যন্ত পাতলা কিন্তু শক্তিশালী ঘড়ি তৈরির জন্য বিখ্যাত। এটি মূলত পাহাড়ে চড়া বা ডাইভিং করার জন্য উপযুক্ত। এর নেভিগেশন সিস্টেম খুবই ফাস্ট।",
+    "sizes": "43mm",
+    "color": "All Black, Ocean Blue",
+    "description": "Suunto is a Finnish brand famous for making thin yet powerful watches. It is primarily suitable for mountain climbing or diving. Its navigation system is very fast.",
     "qna": [
       {
-        "question": "এটি কতটা পাতলা?",
-        "answer": "এটি মাত্র ১০.৮ মিমি পাতলা যা হাতে পরলে অনেক হালকা মনে হয়।"
+        "question": "How thin is it?",
+        "answer": "It is only 10.8mm thin, making it feel very light on the wrist."
       }
     ],
     "reviews": 28,
     "sold": 85,
     "ratings": 4.8,
-    "info": ["হ্যান্ডমেইড ইন ফিনল্যান্ড", "দ্রুত নেভিগেশন", "পাতলা ও টেকসই", "৯৭টি স্পোর্টস মোড"]
+    "info": ["Handmade in Finland", "Fast navigation", "Thin and durable", "97 sports modes"]
+  },
+  {
+    "title": "Xiaomi Watch S3",
+    "image": "https://i.ibb.co.com/XrXB34LT/wtch8.jpg",
+    "price": 14500,
+    "discount": 12,
+    "sizes": "47mm",
+    "color": "Black, Silver",
+    "description": "The biggest feature of the Xiaomi Watch S3 is its interchangeable bezel. You can change the watch's look to match your outfit. It runs on Xiaomi's new HyperOS.",
+    "qna": [
+      {
+        "question": "Do I need to buy bezels separately?",
+        "answer": "Yes, one is included in the box, others can be purchased separately."
+      }
+    ],
+    "reviews": 150,
+    "sold": 890,
+    "ratings": 4.6,
+    "info": ["Interchangeable bezel", "HyperOS support", "15-day battery life", "AMOLED screen"]
   }
 ]

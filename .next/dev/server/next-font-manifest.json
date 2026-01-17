@@ -1,6 +1,8 @@
 {
   "app": {
-    "[project]/src/app/page": []
+    "[project]/src/app/all-watches/page": [],
+    "[project]/src/app/page": [],
+    "[project]/src/app/product/[id]/page": []
   },
   "appUsingSizeAdjust": true,
   "pages": {},
