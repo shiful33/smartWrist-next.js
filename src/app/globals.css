@@ -53,6 +53,23 @@
   }
 }
 
+@theme {
+  --animate-scroll: scroll 40s linear infinite;
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+}
+
+@utility animate-scroll {
+  animation: var(--animate-scroll);
+}
+
 @utility animate-float {
   animation: var(--animate-floating);
 }

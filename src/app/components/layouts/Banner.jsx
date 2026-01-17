@@ -12,7 +12,7 @@ const Banner = () => {
                 <Image src={"/assets/banner.webp"}
                 alt='banner-image'
                 width={1600} height={500}
-                className='w-full mb-20 h-[400px] md:h-[500px]'
+                className='w-full h-[400px] md:h-[500px]'
                 />
                 </div>
                 <div className='absolute w-full lg:w-[50%] top-20 md:top-10 left-12 space-y-4'>
