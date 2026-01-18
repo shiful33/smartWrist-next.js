@@ -1,6 +1,6 @@
 "use client";
 import { useRouter, useSearchParams } from "next/navigation";
-import React, { useState } from "react";
+import React, { Suspense, useState } from "react";
 import toast from "react-hot-toast";
 
 const LoginPage = () => {
@@ -25,7 +25,9 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-[80vh] bg-base-200 px-4">
+    <section>
+      <Suspense fallback={<div>Loading login...</div>}>
+        <div className="flex items-center justify-center min-h-[80vh] bg-base-200 px-4">
       <div className="w-full max-w-md p-8 shadow-2xl card bg-base-100">
         <h2 className="mb-6 text-3xl font-black text-center">Admin Login</h2>
         <form onSubmit={handleLogin} className="space-y-4">
@@ -61,6 +63,8 @@ const LoginPage = () => {
         </p>
       </div>
     </div>
+      </Suspense>
+    </section>
   );
 };
 
