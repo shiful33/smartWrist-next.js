@@ -1,10 +1,9 @@
-import { MongoClient, ServerApiVersion } from 'mongodb';
+import { MongoClient, ServerApiVersion } from "mongodb";
 
 const uri = process.env.MONGODB_URI;
-const dbname = process.env.DBNAME; 
 
 if (!uri) {
-    throw new Error('Please add your Mongo URI to .env.local');
+  throw new Error("Please define the MONGODB_URI environment variable");
 }
 
 const client = new MongoClient(uri, {
@@ -13,16 +12,22 @@ const client = new MongoClient(uri, {
     strict: true,
     deprecationErrors: true,
   },
-  connectTimeoutMS: 10000, 
-  socketTimeoutMS: 45000,
 });
 
-export const dbConnect = (cname) => {
-    return client.db(dbname).collection(cname);
+export const dbConnect = async (collectionName) => {
+  try {
+    await client.connect();
+    
+    const dbName = process.env.DBNAME || "smartWristDB"; 
+    const db = client.db(dbName); 
+    
+    return db.collection(collectionName);
+  } catch (error) {
+    console.error("MongoDB Connection Error:", error);
+    throw error;
+  }
 };
 
 export const COLLECTIONS = {
-    PRODUCTS: "products",
+  PRODUCTS: "products",
 };
-
-export default client;

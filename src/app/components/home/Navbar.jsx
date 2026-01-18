@@ -1,19 +1,50 @@
-import React from "react";
+"use client";
+import React, { useState, useEffect } from "react";
+import { useCart } from "@/context/CartContext";
 import Logo from "../layouts/Logo";
 import NavLink from "../buttons/NavLink";
 import Link from "next/link";
-import { RiShoppingCart2Fill } from "react-icons/ri";
+import { useRouter } from "next/navigation";
+import { RiLogoutBoxRLine, RiShoppingCartLine } from "react-icons/ri";
 
 const Navbar = () => {
-  const nav = (
-    <div className="items-center text-lg md:flex">
+  const { cart, isMounted } = useCart();
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const router = useRouter();
+
+  useEffect(() => {
+    const checkStatus = () => {
+      const auth = localStorage.getItem("isLoggedIn") === "true";
+      setIsLoggedIn(auth);
+    };
+
+    checkStatus();
+    const interval = setInterval(checkStatus, 1000);
+    return () => clearInterval(interval);
+  }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem("isLoggedIn");
+    document.cookie =
+      "isLoggedIn=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+    setIsLoggedIn(false);
+    window.location.href = "/login";
+  };
+
+  const navLinks = (
+    <>
       <li>
-        <NavLink href={"/"}>Home</NavLink>
+        <NavLink href="/">Home</NavLink>
       </li>
       <li>
-        <NavLink href={"/all-watches"}>All Watches</NavLink>
+        <NavLink href="/all-watches">All Watches</NavLink>
       </li>
-    </div>
+      {isLoggedIn && (
+        <li>
+          <NavLink href="/add-item">+ Add Item</NavLink>
+        </li>
+      )}
+    </>
   );
 
   return (
@@ -39,26 +70,48 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="p-2 mt-3 shadow menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] w-52"
+              className="p-2 mt-3 shadow menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] w-52 font-medium"
             >
-              {nav}
+              {navLinks}
             </ul>
           </div>
           <Logo />
         </div>
+
         <div className="hidden navbar-center lg:flex">
-          <ul className="px-1 menu menu-horizontal">
-            {nav}
+          <ul className="gap-2 px-1 font-medium menu menu-horizontal">
+            {navLinks}
           </ul>
         </div>
-        <div className="flex items-center gap-4 navbar-end">
-          <Link href={"/cart"} className="relative">
-            <RiShoppingCart2Fill className="text-2xl transition-transform text-primary hover:scale-110"/>
-            <span className="absolute -top-2 -right-2 badge badge-xs badge-primary">0</span>
+
+        <div className="gap-2 navbar-end md:gap-4">
+          <Link
+            href="/cart"
+            className="relative p-2 rounded-full hover:bg-gray-100"
+          >
+            <RiShoppingCartLine className="text-2xl text-secondary" />
+            {isMounted && cart.length > 0 && (
+              <span className="absolute top-0 right-0 flex items-center justify-center w-5 h-5 text-[10px] font-bold text-white bg-primary rounded-full">
+                {cart.length}
+              </span>
+            )}
           </Link>
-          <Link href={"/login"} className=" md:inline-flex btn btn-outline btn-primary btn-sm md:btn-md">
-            Login
-          </Link>
+
+          {isLoggedIn ? (
+            <button
+              onClick={handleLogout}
+              className="btn btn-error btn-outline btn-sm rounded-xl"
+            >
+              <RiLogoutBoxRLine /> Logout
+            </button>
+          ) : (
+            <Link
+              href="/login"
+              className="text-white btn btn-secondary btn-sm rounded-xl"
+            >
+              Login
+            </Link>
+          )}
         </div>
       </div>
     </div>

@@ -3,13 +3,19 @@ import React from "react";
 import ProductSection from "../components/ProductSection";
 
 const AllProduct = async () => {
-  const productCollection = dbConnect(COLLECTIONS.PRODUCTS);
-  const products = await productCollection.find({}).toArray();
+  let plainProducts = [];
 
-  const plainProducts = products.map(p => ({
-    ...p,
-    _id: p._id.toString() 
-  }));
+  try {
+    const productCollection = await dbConnect(COLLECTIONS.PRODUCTS);
+    
+    if (productCollection && typeof productCollection.find === 'function') {
+      const products = await productCollection.find({}).toArray();
+      
+      plainProducts = JSON.parse(JSON.stringify(products));
+    }
+  } catch (error) {
+    console.error("Database Error in all-watches:", error);
+  }
 
   return <ProductSection initialProducts={plainProducts} />;
 };

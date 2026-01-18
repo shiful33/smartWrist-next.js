@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///C:/Projects/smartWrist-next.js/src/app/components/buttons/NavLink.jsx"],"sourcesContent":["\"use client\";\r\nimport Link from 'next/link';\r\nimport { usePathname } from 'next/navigation';\r\nimport React from 'react';\r\n\r\nconst NavLink = ({ href, children }) => {\r\n    const path = usePathname();\r\n    return (\r\n        <Link className={`${ path.startsWith(href) && \"text-primary\" } font-medium`} href={href}>{children}</Link>\r\n    );\r\n};\r\n\r\nexport default NavLink;"],"names":[],"mappings":";;;;;AACA;AACA;AACA;AAHA;;;;;AAKA,MAAM,UAAU,CAAC,EAAE,IAAI,EAAE,QAAQ,EAAE;IAC/B,MAAM,OAAO,IAAA,iJAAW;IACxB,qBACI,8OAAC,uKAAI;QAAC,WAAW,GAAI,KAAK,UAAU,CAAC,SAAS,eAAgB,YAAY,CAAC;QAAE,MAAM;kBAAO;;;;;;AAElG;uCAEe"}}]
-}

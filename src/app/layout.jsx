@@ -2,6 +2,8 @@ import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/home/Navbar";
 import Footer from "./components/layouts/Footer";
+import TopToDown from "./components/TopToDown";
+
 
 export const inter = Inter ({
   weight: [ "100", "200", "400", "500", "600", "800" ],
@@ -19,10 +21,11 @@ export default function RootLayout({ children }) {
         className={`${inter.className} antialiased w-11/12 mx-auto `}
       >
         <Navbar />
-        <mani className="min-h-[calc(100vh - 320px)]">
+        <main className="min-h-[calc(100vh - 320px)]">
           
           {children}
-        </mani>
+          <TopToDown />
+        </main>
         <Footer />
       </body>
     </html>
